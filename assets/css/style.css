@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 header {
@@ -24,4 +25,8 @@ nav a {
     padding: 14px 20px;
     justify-content: center;
     color: white;
+}
+
+.hero-image {
+    position: relative;
 }
