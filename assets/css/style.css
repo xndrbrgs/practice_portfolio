@@ -1,0 +1,27 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: center;
+    background: aqua;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    background: rgb(61, 59, 59);
+}
+
+nav a {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    justify-content: center;
+    color: white;
+}
