@@ -117,27 +117,5 @@ button:hover {
     margin-right: auto;
 }
 
-.work {
-    color: #edf0f1;
-    margin: 10px;
-    text-align: center;
-}
+/* Projects Section */
 
-.work h1 {
-    margin: 30px auto;
-}
-
-.work img {
-    border-style: solid;
-    border-color: #edf0f1;
-}
-
-.first-proj {
-    width: 50%;  
-    margin-bottom: 30px; 
-}
-
-.small-proj {
-    width: 30%;
-    margin: 10px 20px;
-}
