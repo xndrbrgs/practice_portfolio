@@ -12,7 +12,7 @@ html {
     height: 100%;
 }
 
-li, a , button {
+header h1, li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -20,18 +20,28 @@ li, a , button {
     text-decoration: none;
 }
 
-nav {
+header {
     display: flex;
-    background: rgb(61, 59, 59);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-nav a {
-    font-size: 1.5rem;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 20px;
-    justify-content: center;
-    color: white;
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
 }
 
 .hero-image {
