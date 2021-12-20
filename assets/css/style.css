@@ -20,11 +20,8 @@ li, a, button {
     text-decoration: none;
 }
 
-header h1 {
-    font-weight: 500;
-    font-size: 26px;
-    color: #edf0f1;
-    text-decoration: none;
+header img {
+    width: 160px;
 }
 
 header {
