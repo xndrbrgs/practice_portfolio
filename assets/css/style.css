@@ -339,3 +339,7 @@ input[type=submit] {
         background-position: 175px -50px;
         min-height: 28vh;
     }
+
+    .contact h1 {
+        font-size: 40px;
+    }
