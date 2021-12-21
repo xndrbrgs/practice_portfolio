@@ -21,7 +21,7 @@
                     <li><a href="#work">Work</a></li>
                 </ul>
             </nav>
-            <a class="contact" href="#"><button>Contact Me</button></a>
+            <a class="contact" href="#contact"><button>Contact Me</button></a>
         </header>
     </div>
 
@@ -41,6 +41,7 @@
                     vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
                 <img src="./assets/images/photo.jpg" alt="photo of me">    
         </div>  
+
     <!-- Projects -->
     
     <div class="work" id="work">
@@ -82,9 +83,27 @@
             </div>
         </a></p>
     </div>
+    
     <!-- Contact -->
-    <div class="contact">
+
+    <div class="contact" id="contact">
         <h1>Contact Me</h1>
+        <div class="contact-container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </div>
 </main>    
 </body>
