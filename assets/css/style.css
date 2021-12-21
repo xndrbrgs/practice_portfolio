@@ -22,7 +22,7 @@ body {
 
 li, a, button {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 22px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -74,20 +74,21 @@ button:hover {
 .hero {
     background: url(../images/gif-8.gif) no-repeat;
     background-position: right;
-    background-size: 50%;
+    background-size: 62%;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     color: #edf0f1;
 }
 
 .hero-text {
-    font-size: 20px;
+    font-size: 45px;
     max-width: 50%;
-    margin-left: 40px;
+    margin-left: 100px;
+    margin-right: 50%;
 }
 
 .hero-text p {
-    font-size: 16px;
+    font-size: 25px;
     background: transparent;
     margin-top: 20px;
 }
@@ -101,10 +102,11 @@ button:hover {
 
 .bio h1 {
     text-align: center;
+    font-size: 60px;
 }
 
 .bio p {
-    font-size: 16px;
+    font-size: 25px;
     margin-top: 15px;
     text-align: justify;
     padding: 20px 20px;
@@ -126,6 +128,7 @@ button:hover {
 
 .work h1 {
     margin: 30px auto;
+    font-size: 60px;
 }
 
 .work img {
@@ -142,17 +145,30 @@ button:hover {
 }
 
 .small-proj {
-    display: block;
+    display: inline-block;
     width: 50%;
-    height: auto;
+    margin: 20px 20px;
 }
 
 .container {
     position: relative;
     width: 50%;
+    margin: 0 auto;
   }
 
+.horizontal-container {
+    display: flex;
+    margin: 20px;
+}
 
+.horizontal-container .container {
+    margin: 0 12px;
+}
+
+.horizontal-container .container img {
+    width: 100%;
+    margin: 0;
+}  
 
 .overlay {
   position: absolute;
@@ -192,6 +208,7 @@ button:hover {
 .contact h1 {
     text-align: center;
     margin: 30px auto;
+    font-size: 60px;
 }
 
 input[type=text], select, textarea {
