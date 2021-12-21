@@ -229,10 +229,10 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
-  }
+}
   
   
-  input[type=submit] {
+input[type=submit] {
     background-color: rgba(0,136,169,1);
     color: white;
     padding: 12px 20px;
@@ -240,7 +240,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-  }
+}
   
  
   input[type=submit]:hover {
@@ -255,7 +255,20 @@ input[type=text], select, textarea {
       text-align: center;
   }
 
-  /* Media Queries */
+  .icons {
+      text-align: center;
+      padding: 30px;
+      font-size: 70px;
+      color: #edf0f1;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+  }
+
+  .icons:hover {
+      color: rgba(0,136,169,0.8);
+  }
+
+  /* ---------- Media Queries ---------- */
 
   @media screen and (max-width: 768px) {
     header {
@@ -315,7 +328,13 @@ input[type=text], select, textarea {
         padding: 30px;
     }
 
+    .bio p {
+        font-size: 19px;
+    }
+
     .hero {
-        background-position: 175px -100px;
+        background-position: 175px -50px;
         min-height: 28vh;
     }
+
+   
