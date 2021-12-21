@@ -118,7 +118,7 @@ button:hover {
     font-size: 25px;
     margin-top: 15px;
     text-align: justify;
-    padding: 20px 30px 20px;
+    padding: 20px 60px;
 }
 
 .bio img {
@@ -147,7 +147,7 @@ button:hover {
 
 .first-proj {
     display: block;
-    width: 70%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -256,3 +256,66 @@ input[type=text], select, textarea {
   }
 
   /* Media Queries */
+
+  @media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header .contact {
+        margin-top: 10px;
+    }
+
+    .hero-text {
+        max-width: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 24px;
+    }
+    .contact button {
+        font-size: 16px;
+    }
+    .nav_links li a {
+        font-size: 16px;
+    }
+
+    .bio .section {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .horizontal-container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .horizontal-container .container {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .text {
+        white-space: none;
+        font-size: 15px;
+    }
+
+    .bio img {
+        padding: 30px;
+    }
+
+    .hero {
+        background-position: 175px -100px;
+        min-height: 28vh;
+    }
