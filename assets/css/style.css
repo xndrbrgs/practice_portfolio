@@ -257,6 +257,9 @@ input[type=submit] {
 
   .icons {
       text-align: center;
+  }
+
+  .icons .fab {
       padding: 30px;
       font-size: 70px;
       color: #edf0f1;
@@ -264,7 +267,7 @@ input[type=submit] {
       transition: all 0.3s ease 0s;
   }
 
-  .icons:hover {
+  .icons .fab:hover {
       color: rgba(0,136,169,0.8);
   }
 
@@ -336,5 +339,3 @@ input[type=submit] {
         background-position: 175px -50px;
         min-height: 28vh;
     }
-
-   
